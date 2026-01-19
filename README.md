@@ -1,1 +1,101 @@
-# App-hub
+# dashboard
+EXPO_PUBLIC_API_URL=http://localhost:5000/api
+EXPO_PUBLIC_SOCKET_URL=http://localhost:5000
+REACT_APP_API_BASE_URL=http://localhost:5000
+MAPBOX_ACCESS_TOKEN="sk.eyJ1IjoiaXJlb2x1d2F3aXNkb20iLCJhIjoiY203bGVwM2Q3MGFreTJtcnppcnR6aWpiZCJ9.aaCiWfLle1We_5CqIqikQQ"
+API_BASE_URL=http://localhost:5000/api
+GOOGLE_MAPS_API_KEY ="AIzaSyD-Vz-OkLGAeMiuT5_eUj2_V9x91FTrDM8"
+EXPO_PUBLIC_GOOGLE_MAPS_API_KEY=AIzaSyD-Vz-OkLGAeMiuT5_eUj2_V9x91FTrDM8
+
+#backend
+# Connect to Supabase via connection pooling with Supavisor.
+
+# Connect to Supabase via connection pooling
+DATABASE_URL="postgresql://postgres.etagxwbrlqwtghezqyhv:EGas1702%3F%23Ire@aws-0-eu-west-3.pooler.supabase.com:6543/postgres?pgbouncer=true"
+
+# Direct connection to the database. Used for migrations
+DIRECT_URL="postgresql://postgres.etagxwbrlqwtghezqyhv:[YOUR-PASSWORD]@aws-0-eu-west-3.pooler.supabase.com:5432/postgres"
+# Direct connection to the database. Used for migrations.
+DIRECT_URL="postgresql://postgres.etagxwbrlqwtghezqyhv:EGas1702%3F%23Ire@aws-0-eu-west-3.pooler.supabase.com:5432/postgres"
+        
+# JWT Secret
+JWT_SECRET="NuXj19fQ8Pvynwe9ALQzCGR5zCUcdEL0x14qXbZpXv6Rerj+qc/OoBKrihvs6Ym8q33+1/N3R2jDozDa0SOY4w=="
+JWT_ACCESS_EXPIRES_IN=15m
+JWT_REFRESH_EXPIRES_IN=30d
+
+# Redis URL
+REDIS_URL=rediss://default:AWKsAAIjcDE2ODEyZjFiZmM4ZmE0NTc3OTE2OTFhOTA5M2MxMDQ2YnAxMA@unbiased-bonefish-25260.upstash.io:6379
+DRIVER_ALARM_REPEAT_MS=30000
+
+# Interswitch Credentials
+INTERSWITCH_BASE_URL="https://qa.interswitchng.com"
+INTERSWITCH_MERCHANT_CODE="MX150444"
+INTERSWITCH_CLIENT_ID="IKIA5A8CA1BE97EAFDB817ABA7E80F912561B9C472F2"
+INTERSWITCH_SECRET_KEY="472xNSvRchFUuJK"
+INTERSWITCH_PAYITEMID="4592173"
+INTERSWITCH_PUBLIC_MODULUS=""
+INTERSWITCH_PUBLIC_EXPONENT=""
+INTERSWITCH_CALLBACKURL="https://example.com/callback"
+
+# Node Environment
+NODE_ENV=development
+PORT=5000
+
+# Expo
+EXPO_ACCESS_TOKEN="L-IcmXGoVl8uimychyUqD0mZCwiStiCep_hRv8ZD"
+
+
+
+# Google Maps API Key
+GOOGLE_MAPS_API_KEY=""
+API_BASE_URL=http://192.168.228.201
+FIREBASE_SERVICE_ACCOUNT_EMAIL=firebase-adminsdk-fbsvc@egasadmin.iam.gserviceaccount.com
+FIREBASE_PRIVATE_KEY="-----BEGIN PRIVATE KEY-----
+MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDCsydMzF6r3HHz
+/iVBXZaaOSHKxVvOAm0R6FJLhqnDsNQgEE1g8ieQfyep2gUmq1zdPKEoLhXdoLTW
+Zf97tjSuk/4Y223ZEZ4XgXesWKlzz6GqtoL7jh1Cx4vGcdv/jmxa5ZSOMM/gEluW
+JxNKKZfQfmh3uoXoKrDrHg6x8G/UrlYVDceuMm5AbhrxVJ9KVH7h95YBztjvYP84
+vPXC7eKBGDPYTPcSvqD2Ff1SEJrmrlYXdDVaAV2ILIK/BisCXUJI/QUcQllmTSJv
+MpjjfiH3/Us+zHODnI1vHVAZrr4BMKgkqzgY183GVwB7t7++zg4iuM15MKB0r40k
+GnZcxxJVAgMBAAECggEAAi5sKQvcHqxOWYe2JqSUCJ/NvV4XMHht/Oafr2lvkvny
+8nYES+sCnveRu/EtoBiI5pCklJTpmU1Q4VsMsPfiYLdXQDOLKESugwBoFRX8Ngg0
+PTukvYlC0in2qq9BYfxYQe9zCeHJnm7OOGExMeJD6WnVJUxBbk+2Ijg4vW0eb6FM
+ZGXXuYmBPH34LL40t5h5xGmx5woh2vzngkzl/iND7lNZCGRbJMvoRrPQ2M9qZash
+gvWHCyODu44Uu6K9xFaLUtp0Y1pDvzmUb9Pnfe8ZI4tjnbITbQZdn90JqZpVkAww
+6HV6xbiCwwZQT7HpbkBK3pejhO8Htp1Y4wK7aJxLeQKBgQDg3qJ7x6AaXWGYUSEY
+v2t0VbjtTjS0HZw03aRWaLKAtS3A0Y7fr8TBRaXMz0DjZgt7PBTX1pfcfxGAGVls
+m0n0T4+g2t/NVIQkXvenqMOY+Fjp1vQG+B6WxekIf1LyIR96NLKQZRU5SohGqqG9
+dUQnHV/HNIKro3gCEwNRNKHOaQKBgQDdp00up9Iflvhnh+yWkBKqiD+YUfdyF38P
+fhTFsSGlDiZ3pkp/7hJXafpTrmOPufrqKpc8gej7efXdhuo6aLXPAy4Gy79t08jv
+oF4Lhah3hB8NFrdYuT0PxXnTzOoqDacHiHW92+5XoYXqA+lsqEuJy7rIh/Plxkzl
+2pJV763/DQKBgFcYA6ibZbgwaMdczMvP/+db+Db5LlKAkWqsWaUaAeD1y1W+FG8w
+na0Zs6DCuOgaMuI1IAGE3OaK1JVfvBHjh143nnJ3s2zMii2oFpV6ON+7eHyBQ5yb
+ZwWQe7RN1CtxhsaHOI3SiMjaxDNSjTha/d2Ec/8sqFugAbAT+xntn6nZAoGBALcc
+aDG76GW6dbop2zTDDvicmFUAmfhCGvC0ivqKi63sk7DSyscG6VYXsfqBnbR1wyjC
+SLBu7gcaSRhaRZQ9Pr0j+dpBIvn1/e8Fbww8t
+3Yu2gMft1uFWgghYc+P8RWfsYQ0M6XhYhJjGSQWp0LDTkNetHi+yH9ZxeyvylEIh
++49P37J81WNsHkEG4XX8lao=
+-----END PRIVATE KEY-----"
+FIREBASE_PROJECT_ID=egasadmin
+FIREBASE_SERVICE_ACCOUNT_PATH=./egasadmin-7f2c3bcb5a6e.json
+PAYSTACK_SECRET_KEY="sk_test_420cdf01a2a40691b83b1104f4a010b3ba9176b4"
+PAYSTACK_PUBLIC_KEY="pk_test_bee0cceeb470583b3b035d788c2e6a05b88df9d3"
+INTERSWITCH_BASE_URL=https://webpay.interswitchng.com
+INTERSWITCH_MERCHANT_CODE=MX150444
+INTERSWITCH_CLIENT_ID=IKIA8A8CD14B78F91E67AD2FD21968C76C37F767E2D1
+INTERSWITCH_SECRET_KEY=g5ZyPihIanDFQ53
+INTERSWITCH_PAYITEMID=4592173
+INTERSWITCH_CALLBACKURL=
+INTERSWITCH_INLINE_SCRIPT=https://newwebpay.interswitchng.com/inline-checkout.js
+# (optional) INTERSWITCH_PUBLIC_MODULUS / INTERSWITCH_PUBLIC_EXPONENT if you still need them
+
+#admin
+# Copy this to .env.production and update with your actual values
+VITE_API_URL= https://e22ed569c5f7.ngrok-free.app/api
+VITE_APP_NAME=EGas Admin Dashboard
+
+
+#driver
+EXPO_PUBLIC_API_URL="http://localhost:5000/api"
+EXPO_PUBLIC_GOOGLE_MAPS_API_KEY=""
+EXPO_PUBLIC_SOCKET_URL="http://localhost:5000"
