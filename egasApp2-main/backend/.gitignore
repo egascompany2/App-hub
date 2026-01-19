@@ -7,6 +7,10 @@ node_modules
 .env.test
 .admin-token.json
 
+# Firebase Service Account Credentials (NEVER COMMIT THESE!)
+*firebase-adminsdk*.json
+egasadmin*.json
+*-firebase-adminsdk-*.json
 
 dist
 /dist

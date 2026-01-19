@@ -1,0 +1,19 @@
+# Firebase Service Account Credentials (NEVER COMMIT THESE!)
+*firebase-adminsdk*.json
+egasadmin*.json
+*-firebase-adminsdk-*.json
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
