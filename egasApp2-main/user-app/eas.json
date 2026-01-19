@@ -1,0 +1,73 @@
+{
+  "cli": {
+    "version": ">= 14.2.0",
+    "appVersionSource": "local"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "ios": {
+        "resourceClass": "m-medium"
+      },
+      "env": {
+        "EXPO_PUBLIC_API_URL": "https://e22ed569c5f7.ngrok-free.app/api",
+        "EXPO_PUBLIC_SOCKET_URL": "https://e22ed569c5f7.ngrok-free.app"
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "channel": "preview",
+      "ios": {
+        "resourceClass": "m-medium",
+        "buildConfiguration": "Release"
+      },
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "EXPO_PUBLIC_API_URL": "https://e22ed569c5f7.ngrok-free.app/api",
+        "EXPO_PUBLIC_SOCKET_URL": "https://e22ed569c5f7.ngrok-free.app"
+      }
+    },
+    "testflight": {
+      "distribution": "store",
+      "channel": "testflight",
+      "ios": {
+        "resourceClass": "m-medium",
+        "buildConfiguration": "Release",
+        "distribution": "store"
+      },
+      "env": {
+        "EXPO_PUBLIC_API_URL": "https://e22ed569c5f7.ngrok-free.app/api",
+        "EXPO_PUBLIC_SOCKET_URL": "https://e22ed569c5f7.ngrok-free.app"
+      }
+    },
+    "production": {
+      "autoIncrement": true,
+      "ios": {
+        "resourceClass": "m-medium",
+        "buildConfiguration": "Release",
+        "image": "latest",
+        "credentialsSource": "remote"
+      },
+      "android": {
+        "buildType": "apk",
+        "credentialsSource": "local"
+      },
+      "env": {
+        "EXPO_PUBLIC_API_URL": "https://e22ed569c5f7.ngrok-free.app/api",
+        "EXPO_PUBLIC_SOCKET_URL": "https://e22ed569c5f7.ngrok-free.app"
+      }
+    }
+  },
+  "submit": {
+    "production": {
+      "ios": {
+        "appleId": "egascompany3@gmail.com",
+        "ascAppId": "6751601221",
+        "appleTeamId": "S3M22BYZ4W"
+      }
+    }
+  }
+}

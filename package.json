@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "@prisma/client": "^6.17.1",
+    "@react-native-community/checkbox": "^0.5.17",
+    "bcryptjs": "^3.0.2",
+    "firebase-admin": "^13.4.0",
+    "prisma": "^6.17.1",
+    "react": "^19.1.0",
+    "react-hook-form": "^7.56.1",
+    "react-native-google-places-autocomplete": "^2.5.7"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.8"
+  }
+}

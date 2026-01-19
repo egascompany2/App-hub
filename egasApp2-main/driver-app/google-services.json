@@ -1,0 +1,124 @@
+{
+  "project_info": {
+    "project_number": "732082265368",
+    "project_id": "egasadmin",
+    "storage_bucket": "egasadmin.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:732082265368:android:4f59feec226eec5895526d",
+        "android_client_info": {
+          "package_name": "app.egas.driver"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD613CNAYP8kV-QQovql9XfRuQwwSsiucQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:732082265368:android:49612299d0c8f15d95526d",
+        "android_client_info": {
+          "package_name": "com.egas.driver"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD613CNAYP8kV-QQovql9XfRuQwwSsiucQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:732082265368:android:f3909c3a3922c5f795526d",
+        "android_client_info": {
+          "package_name": "com.egascompany.driverapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD613CNAYP8kV-QQovql9XfRuQwwSsiucQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:732082265368:android:e9a7a6ea33c0fccf95526d",
+        "android_client_info": {
+          "package_name": "com.ireoluwawisdev.egas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD613CNAYP8kV-QQovql9XfRuQwwSsiucQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:732082265368:android:ec3be71764df4fea95526d",
+        "android_client_info": {
+          "package_name": "com.ireoluwawisdomdev.driver"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD613CNAYP8kV-QQovql9XfRuQwwSsiucQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:732082265368:android:1228c9e91458c26495526d",
+        "android_client_info": {
+          "package_name": "com.ireoluwawisdomdev.user"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD613CNAYP8kV-QQovql9XfRuQwwSsiucQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

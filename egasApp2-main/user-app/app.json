@@ -1,0 +1,95 @@
+{
+  "expo": {
+    "name": "Egas",
+    "slug": "egas-user",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/egas-logo.png",
+    "splash": {
+      "image": "./assets/images/egas-logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": false,
+    "updates": {
+      "enabled": true,
+      "checkAutomatically": "ON_ERROR_RECOVERY",
+      "fallbackToCacheTimeout": 0
+    },
+    "runtimeVersion": "1.0.0",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ireoluwawisdev.egas",
+      "buildNumber": "37",
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "config": {
+        "googleMapsApiKey": "AIzaSyDYxkdoCPdRSTXYPfjAodX4HpR2njHpKVA"
+      },
+      "entitlements": {
+        "aps-environment": "production"
+      },
+      "podfileProperties": {
+        "useModularHeaders": true,
+        "useFrameworks": "static"
+      },
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false,
+        "UIBackgroundModes": [
+          "remote-notification"
+        ],
+        "NSUserNotificationUsageDescription": "We use notifications to keep you updated about your gas delivery."
+      }
+    },
+    "android": {
+      "versionCode": 19,
+      "googleServicesFile": "./google-services.json",
+      "permissions": [
+        "android.permission.INTERNET",
+        "android.permission.WAKE_LOCK",
+        "android.permission.RECEIVE_BOOT_COMPLETED",
+        "android.permission.POST_NOTIFICATIONS"
+      ],
+      "package": "com.ireoluwawisdev.egas",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDYxkdoCPdRSTXYPfjAodX4HpR2njHpKVA"
+        }
+      },
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/egas-logo.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "@react-native-firebase/app",
+        {
+          "setAndroidName": true
+        }
+      ],
+      "@react-native-firebase/messaging",
+      "./plugins/withNotifee",
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static",
+            "deploymentTarget": "16.0"
+          }
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "0d98c00a-f70d-457e-b7be-943e86c0e226"
+      },
+      "router": {
+        "origin": false
+      }
+    },
+    "owner": "egasenergy31"
+  }
+}

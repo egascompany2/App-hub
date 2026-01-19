@@ -1,0 +1,45 @@
+{
+  "name": "EGas Admin Dashboard",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "20"
+    },
+    "ghcr.io/devcontainers/features/git:1": {},
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.vscode-typescript-next",
+        "bradlc.vscode-tailwindcss",
+        "esbenp.prettier-vscode",
+        "ms-vscode.vscode-eslint",
+        "firebase.firebase-explorer",
+        "ms-vscode.vscode-json"
+      ],
+      "settings": {
+        "typescript.preferences.includePackageJsonAutoImports": "on",
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      }
+    }
+  },
+  "postCreateCommand": "npm install -g firebase-tools && npm install",
+  "forwardPorts": [5173, 5000, 5001],
+  "portsAttributes": {
+    "5173": {
+      "label": "Admin Dashboard Dev Server",
+      "onAutoForward": "notify"
+    },
+    "5000": {
+      "label": "Firebase Emulator",
+      "onAutoForward": "notify"
+    },
+    "5001": {
+      "label": "Firebase Emulator UI",
+      "onAutoForward": "notify"
+    }
+  },
+  "remoteUser": "node"
+} 

@@ -1,0 +1,12 @@
+node_modules
+# Keep environment variables out of version control
+
+.env.local
+.env.development
+.env.production
+.env.test
+.admin-token.json
+
+
+dist
+/dist

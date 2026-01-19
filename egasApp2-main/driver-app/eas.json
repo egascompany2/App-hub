@@ -1,0 +1,53 @@
+{
+  "cli": {
+    "version": ">= 14.2.0",
+    "appVersionSource": "local"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "android": {
+        "credentialsSource": "local"
+      },
+      "env": {
+        "GOOGLE_MAPS_API_KEY": "AIzaSyD-Vz-OkLGAeMiuT5_eUj2_V9x91FTrDM8",
+        "EXPO_PUBLIC_API_URL": "https://e22ed569c5f7.ngrok-free.app/api",
+        "EXPO_PUBLIC_SOCKET_URL": "https://e22ed569c5f7.ngrok-free.app"
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "channel": "preview",
+      "android": {
+        "credentialsSource": "local"
+      },
+      "env": {
+        "GOOGLE_MAPS_API_KEY": "AIzaSyD-Vz-OkLGAeMiuT5_eUj2_V9x91FTrDM8",
+        "EXPO_PUBLIC_API_URL": "https://e22ed569c5f7.ngrok-free.app/api",
+        "EXPO_PUBLIC_SOCKET_URL": "https://e22ed569c5f7.ngrok-free.app"
+      }
+    },
+    "production": {
+      "autoIncrement": false,
+      "android": {
+        "buildType": "app-bundle",
+        "credentialsSource": "local"
+      },
+      "env": {
+        "GOOGLE_MAPS_API_KEY": "AIzaSyD-Vz-OkLGAeMiuT5_eUj2_V9x91FTrDM8",
+        "EXPO_PUBLIC_API_URL": "https://e22ed569c5f7.ngrok-free.app/api",
+        "EXPO_PUBLIC_SOCKET_URL": "https://e22ed569c5f7.ngrok-free.app"
+      }
+    }
+  },
+  "submit": {
+    "production": {
+      "ios": {
+        "appleId": "egascompany3@gmail.com",
+        "appleTeamId": "S3M22BYZ4W",
+        "ascAppId": "6751191377"
+      }
+    }
+  }
+}
